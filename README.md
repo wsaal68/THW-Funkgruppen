@@ -1,3 +1,5 @@
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
 # THW Funkrufnamen – Suche & Generator
 
 Dieses Tool hilft dir, Funkrufnamen für das Technische Hilfswerk (THW) zu suchen und zu generieren. Es basiert auf der Funkrufnamen-Regelung des THW (THW-FuRnR) und dient der Ausbildung und Vorbereitung.
@@ -30,4 +32,9 @@ Dieses Tool hilft dir, Funkrufnamen für das Technische Hilfswerk (THW) zu suche
 Siehe [LICENSE](LICENSE) (MIT License).
 
 ---
+
+## Autor
+
+© 2025 Wolfgang Saal, Böllenborn
+
 
