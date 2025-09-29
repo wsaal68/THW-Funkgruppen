@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="320" viewBox="0 0 1600 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4cc3ff"/>
+      <stop offset="1" stop-color="#8bffb8"/>
+    </linearGradient>
+    <style>
+      .title { font-family: Inter, system-ui, sans-serif; font-weight: 800; font-size: 72px; fill: #E6EEF6; }
+      .subtitle { font-family: Inter, system-ui, sans-serif; font-weight: 500; font-size: 28px; fill: #A7B7C8; }
+    </style>
+  </defs>
+
+  <!-- Background transparent -->
+  <rect x="8" y="8" width="1584" height="304" rx="40" ry="40" fill="none" stroke="url(#grad)" stroke-width="12"/>
+
+  <!-- Decorative waves left -->
+  <g transform="translate(100,160)" stroke="url(#grad)" stroke-width="14" fill="none" stroke-linecap="round">
+    <circle cx="0" cy="0" r="18" fill="url(#grad)" stroke="none"/>
+    <path d="M0 -50 A50 50 0 0 1 0 50 M0 -90 A90 90 0 0 1 0 90" opacity="0.8"/>
+  </g>
+
+  <!-- Text -->
+  <g transform="translate(220,180)">
+    <text class="title">THW Funkrufnamen</text>
+    <text y="60" class="subtitle">Suche &amp; Generator</text>
+  </g>
+</svg>
